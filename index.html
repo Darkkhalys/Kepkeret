@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+    
+    <title>Képkeret</title>
+  </head>
+  <body class="dark-mode">
+    <div class="container-fluid">
+
+    
+
+    <div class="row">
+    <div class="col-lg-6 col-md-12" id="label">
+    <label for="Urllabel">Adja meg a kép URL-jét</label>
+
+    </div>
+    <div class="col-lg-6 col-md-12">
+    <input type="url" id="url">
+    </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6 col-md-12" id="label">
+        <label for="Szelesseg" > Kép szélessége (px)</label>
+      </div>
+      <div class="col-lg-6 col-md-12">
+        <input type="number" id="kepszelesseg">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6 col-md-12" id="label">
+        <label for="Kepkeretv">Képkeret Vastagsága (px)</label>
+      </div>
+      <div class="col-lg-6 col-md-12">
+
+        <input type="number" id="kepkeretszelessege">
+      </div>
+
+    </div>
+
+
+    <div class="row">
+      <div class="col-lg-6 col-md-12" id="label">
+        <label for="Szin">Képkeret Színe </label>
+      </div>
+      <div class="col-lg-6 col-md-12">
+        <input type="color" id="kepkeretszine">
+      </div>
+    </div>
+
+    <input type="button" value="Mehet" id="Button">
+  
+    </div>
+    <!--https://i.imgur.com/O89vfci.jpeg -->
+     <img src="" alt="" id="kep">
+    
+
+
+     <footer>
+
+      <p>Pataki Attila 2/14S</p>
+      <input type="button" value="Sötet" id="Sotet">
+
+
+    </footer>
+
+
+    <div id="app"></div>
+    
+    <script type="module" src="/main.js"></script>
+    
+
+ 
+  </body>
+</html>
